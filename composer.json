@@ -1,0 +1,14 @@
+{
+    "name": "doog-cms",
+    "description": "A php CMS base on ZF2",
+    "license": "BSD-3-Clause",
+    "keywords": [
+        "cms",
+        "zf2"
+    ],
+    "homepage": "https://github.com/liujin834/doog",
+    "require": {
+        "php": ">=5.6",
+        "zendframework/zendframework": "~2.5"
+    }
+}
