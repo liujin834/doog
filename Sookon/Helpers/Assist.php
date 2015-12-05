@@ -151,6 +151,24 @@ class Assist
 			return 'other';
 		}
 	}
+
+	static function User($param = NULL){
+		$auth = new Auth;
+		$result = $auth->getInstance();
+		if($result->hasIdentity() == true)
+		{
+			if(!empty($param))
+			{
+				$user = $result->getIdentity();
+				return $user->$param;
+			}else{
+				$user = $result->getIdentity();
+				return $user;
+			}
+		}else{
+			return false;
+		}
+	}
 	
 	static function get_class_name($object = null)
 	{
