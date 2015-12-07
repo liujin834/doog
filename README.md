@@ -31,15 +31,16 @@ $this->getEventManager()->trigger(PreDeclare::EVENT_INSERT_PRE, $this, compact('
 ...
 ```
 
-|事件                  |
-|EVENT_INSERT_PRE     |
-|EVENT_INSERT_PROCESS_DATA|
-|EVENT_INSERT_POST|
-|EVENT_UPDATE_PRE|
+|事件                      |
+|--------------------------|
+|EVENT_INSERT_PRE          |
+|EVENT_INSERT_PROCESS_DATA |
+|EVENT_INSERT_POST         |
+|EVENT_UPDATE_PRE          |
 |EVENT_UPDATE_PROCESS_DATA |
-|EVENT_UPDATE_POST |
-|EVENT_DELETE_PRE|
-|EVENT_DELETE_POST|
+|EVENT_UPDATE_POST         |
+|EVENT_DELETE_PRE          |
+|EVENT_DELETE_POST         |
 
 
 //todo: @liujin834  $$$$文档文档文档
