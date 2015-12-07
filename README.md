@@ -1,6 +1,19 @@
 # doog
 基于Zend Framework 2对一些组件再次抽象，丰富了使用方法，简化使用代码。
 
+|模块           |描述             |
+|---------------|-----------------|
+|Authentication |ACL权限服务      |
+|Db             |数据库操作       |
+|EventModel     |事件管理器       |
+|File           |文件上传下载     |
+|Helpers        |助手             |
+|Member         |用户             |
+|Service        |服务管理器       |
+|Mail           |邮件             |
+
+
+
 ## e.g.
 
 * 获取一个单例模式的Zend Db
