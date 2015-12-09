@@ -1,6 +1,6 @@
 {
-    "name": "doog-cms",
-    "description": "A php CMS base on ZF2",
+    "name": "doog",
+    "description": "this is not a cms",
     "license": "BSD-3-Clause",
     "keywords": [
         "cms",

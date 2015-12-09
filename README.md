@@ -44,3 +44,13 @@ $this->getEventManager()->trigger(PreDeclare::EVENT_INSERT_PRE, $this, compact('
 
 
 //todo: @liujin834  $$$$文档文档文档
+
+例子使用:
+
+```shell
+composer install
+```
+
+```shell
+
+```
